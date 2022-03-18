@@ -1,0 +1,6 @@
+package Anonymously;
+
+public interface IAnonymousInterface {
+ public void multiply();
+ public void divide();
+}

@@ -1,0 +1,16 @@
+package Interface;
+
+public class Cycle implements Bicycle() {
+
+}
+
+@Override
+public void applyBrake(int decrement) {
+	System.out.println("break");
+	
+}
+
+@Override
+public void speddUP(int increment) {
+	System.out.println("speed");
+}

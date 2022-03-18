@@ -1,0 +1,23 @@
+package Anonymously;
+
+public class AnonymousTest {
+
+	public static void main(String[] args) {
+IAnonymousInterface obj=new IAnonymousInterface() {
+	
+	@Override
+	public void multiply() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	@Override
+	public void divide() {
+		// TODO Auto-generated method stub
+		
+	}
+};
+
+	}
+
+}

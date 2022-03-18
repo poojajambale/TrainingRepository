@@ -1,0 +1,30 @@
+import java.util.StringTokenizer;
+public class StringTokenizer {
+
+	
+		
+	public static int getSum(String s) {
+		StringTokenizer st = new StringTokenizer();
+		int sum = 0;
+		 
+		while(st.hasMoreTokens()) {
+			int n = Integar.parseInt(st.nextToken());
+		}
+		
+		return 0;
+		
+	}
+	private Object nextToken() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	private boolean hasMoreTokens() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,28 @@
+package Abstract;
+
+abstract public class Main {
+ public Main() {
+	 System.out.println("I am from main");
+ }
+
+ abstract public void greet();
+}
+
+class Driver{
+	public static void main(String[] args) {
+		First f = new First();
+		f.greet();
+		
+	}
+
+}
+
+class First extends Main {
+
+	@Override
+	public void greet() {
+		System.out.println("I am from First");
+		
+	}
+	 
+ }

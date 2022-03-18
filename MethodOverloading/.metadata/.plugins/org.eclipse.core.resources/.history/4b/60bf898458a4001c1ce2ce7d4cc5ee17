@@ -1,0 +1,11 @@
+package Lamda;
+
+public class Lamda {
+
+	public static void main(String[] args) {
+		LamdaTest  l = () ->System.out.println("I am from Lamda Test");
+		l.print;
+
+	}
+
+}

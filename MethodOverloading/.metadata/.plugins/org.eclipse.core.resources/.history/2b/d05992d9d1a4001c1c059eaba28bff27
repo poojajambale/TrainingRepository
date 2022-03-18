@@ -1,0 +1,6 @@
+package Interface;
+
+public interface Bicycle {
+void applyBrake(int decrement);
+void speddUP(int increment);
+}

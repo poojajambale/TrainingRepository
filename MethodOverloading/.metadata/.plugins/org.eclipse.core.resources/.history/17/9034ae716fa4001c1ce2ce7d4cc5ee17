@@ -1,0 +1,20 @@
+
+public class StringTokenizer {
+
+	public static int getSum(String s) {
+		int sum = 0;
+		StringTokenizer st = new StringTokenizer(s);
+		
+		while(st.hasMoreTokens()) {
+			int n = Integar.parseInt(st.nextToken());
+			sum+=n;
+		}
+		return sum;
+		
+	}
+	public static void main(String[] args) {
+		System.out.println(getSum("2 5 7 9"));
+
+	}
+
+}

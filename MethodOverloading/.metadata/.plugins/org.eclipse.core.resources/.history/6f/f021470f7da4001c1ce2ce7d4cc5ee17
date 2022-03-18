@@ -1,0 +1,15 @@
+
+public class StringTokenizer {
+public static String StringTokenizer(String s) {
+    StringTokenizer st = new StringTokenizer(s);
+    
+    while(st.hasMoreTokens()) {
+    	System.out.println(st.nextTokens());
+    }
+}
+	public static void main(String[] args) {
+		StringTokenizerb
+
+	}
+
+}

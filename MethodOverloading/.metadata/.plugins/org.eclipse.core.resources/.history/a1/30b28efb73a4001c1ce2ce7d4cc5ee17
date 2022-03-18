@@ -1,0 +1,13 @@
+
+public class Decode {
+
+	 public static String decode(String s) {
+		 s = s.replace("[aeiouAEIOU]", " ");
+		 return s;
+	 }
+	public static void main(String[] args) {
+		String ans = decode("Pooja Jamble");
+		System.out.println(ans);
+	}
+
+}

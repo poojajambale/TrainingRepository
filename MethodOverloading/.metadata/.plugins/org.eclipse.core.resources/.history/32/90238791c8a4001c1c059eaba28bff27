@@ -1,0 +1,24 @@
+package Interferance;
+
+public class Parent {
+public void first() {
+	System.out.println("I am from first parent class");
+	
+
+}
+	public static void main(String[] args) {
+		Parent p = new Parent();
+		p.first();
+		Child c = new Child();
+		c.first();
+
+	}
+	
+	public class Child extends Parent{
+		
+		public void first() {
+			System.out.println("I am from first child class ");
+		}
+	}
+
+}

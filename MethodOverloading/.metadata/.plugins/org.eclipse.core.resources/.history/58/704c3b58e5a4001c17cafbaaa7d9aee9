@@ -1,0 +1,13 @@
+
+public class StringTokenizer {
+
+public static String word(String s) {
+	StringTokenizer st = new StringTokenizer(s);
+	
+}
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

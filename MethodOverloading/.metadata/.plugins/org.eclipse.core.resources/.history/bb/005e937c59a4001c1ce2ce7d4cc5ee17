@@ -1,0 +1,14 @@
+@FunctionalInterface
+public interface Function{
+ 
+	public void method();
+	public void functional();
+	
+	public default void first() {
+		System.out.println("I am from first block");
+	}
+	
+	public default void second() {
+		System.out.println("I am from second block");
+	}
+}
